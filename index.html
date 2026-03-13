@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="自贡彩灯 - 天下第一灯，千年非遗技艺。专业彩灯设计制作，传承东方艺术瑰宝。自贡彩灯始于唐宋，兴于明清，盛于当代，是国家级非物质文化遗产。">
+    <meta name="keywords" content="自贡彩灯,自贡灯会,彩灯制作,灯会展览,非遗文化,天下第一灯,南国灯城,彩灯设计,灯会策划,自贡彩灯文化">
+    <title data-i18n="meta.title">自贡彩灯 - 天下第一灯 | Zigong Lanterns</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏮</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1 data-i18n="logo.title">自贡彩灯</h1>
+                <p data-i18n="logo.subtitle">天下第一灯 · 千年非遗技艺</p>
+            </div>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active" data-i18n="nav.home">首页</a></li>
+                <li><a href="#about" class="nav-link" data-i18n="nav.about">彩灯文化</a></li>
+                <li><a href="#stats" class="nav-link" data-i18n="nav.stats">数据统计</a></li>
+                <li><a href="#gallery" class="nav-link" data-i18n="nav.gallery">作品展示</a></li>
+                <li><a href="#cases" class="nav-link" data-i18n="nav.cases">南宁之夜</a></li>
+                <li><a href="#services" class="nav-link" data-i18n="nav.services">服务介绍</a></li>
+                <li><a href="#contact" class="nav-link" data-i18n="nav.contact">联系我们</a></li>
+            </ul>
+
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="zh">中</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Animated Background Particles -->
+        <div class="hero-particles" id="heroParticles"></div>
+
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span data-i18n="hero.badge">国家级非物质文化遗产</span>
+            </div>
+
+            <h1 class="hero-title">
+                <span class="text-gold" data-i18n="hero.title1">天下第一灯</span>
+                <span data-i18n="hero.title2">千年灯耀中华</span>
+            </h1>
+
+            <p class="hero-subtitle" data-i18n="hero.subtitle">
+                自贡彩灯 · 南国灯城 · 匠心传承
+            </p>
+
+            <p class="hero-description" data-i18n="hero.description">
+                始于唐宋，兴于明清，盛于当代。自贡彩灯以其恢宏的气势、精湛的工艺、绚丽的色彩，
+                被誉为"天下第一灯"，成为中国文化对外交流的重要名片。
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#gallery" class="btn btn-primary" data-i18n="hero.cta.primary">
+                    浏览作品
+                </a>
+                <a href="#about" class="btn btn-secondary" data-i18n="hero.cta.secondary">
+                    了解更多
+                </a>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <span data-i18n="hero.scroll">向下滚动</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-decoration section-decoration-gold" style="top: 10%; left: -100px;"></div>
+        <div class="section-decoration section-decoration-red" style="bottom: 10%; right: -100px;"></div>
+
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="about.label">传承千年的东方艺术</span>
+                <h2 class="section-title" data-i18n="about.title">彩灯文化</h2>
+                <p class="section-subtitle" data-i18n="about.subtitle">
+                    自贡彩灯，不仅仅是一种照明工具，更是中华文明的艺术瑰宝
+                </p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">🏮</div>
+                    <h3 data-i18n="about.card1.title">历史渊源</h3>
+                    <p data-i18n="about.card1.desc">
+                        自贡灯会有近千年的彩灯历史，唐宋时期便有新年燃灯的习俗，明清时期发展为大型灯会，
+                        至现代自贡灯会已成为中国最具代表性的民俗文化活动。
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-icon">✨</div>
+                    <h3 data-i18n="about.card2.title">工艺特色</h3>
+                    <p data-i18n="about.card2.desc">
+                        自贡彩灯以"形、色、光、声、动"融为一体，采用丝绸、玻璃、瓷器、LED等多种材料，
+                        结合现代科技，打造出栩栩如生、绚丽多彩的艺术作品。
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-icon">🌍</div>
+                    <h3 data-i18n="about.card3.title">国际影响</h3>
+                    <p data-i18n="about.card3.desc">
+                        自贡彩灯已走向世界，在全球50多个国家和地区展出，接待观众超过数亿人次，
+                        成为中国文化对外交流的重要名片。
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-icon">🏆</div>
+                    <h3 data-i18n="about.card4.title">非遗传承</h3>
+                    <p data-i18n="about.card4.desc">
+                        2008年自贡灯会被列入国家级非物质文化遗产名录，是中国优秀传统文化的杰出代表，
+                        承载着中华民族的文化记忆和审美追求。
+                    </p>
+                </div>
+            </div>
+
+            <!-- Detailed Introduction -->
+            <div class="about-detail">
+                <div class="about-detail-content">
+                    <h3 class="about-detail-title" data-i18n="about.detail.title">自贡彩灯文化概述</h3>
+
+                    <div class="about-detail-section">
+                        <h4 data-i18n="about.detail.history.title">历史发展</h4>
+                        <p data-i18n="about.detail.history.content">
+                            自贡位于四川省南部，因盐业资源丰富而享有"盐都"之称。自贡灯会起源于唐宋时期，
+                            当时当地百姓在新年期间燃灯庆祝，祈求来年风调雨顺。明清时期，随着盐业的繁荣，
+                            自贡灯会逐渐发展为规模宏大的民俗活动。新中国成立后，特别是改革开放以来，
+                            自贡灯会不断创新发展，从传统手工制作到现代化工艺，从单一灯彩到综合艺术呈现，
+                            形成了独特的自贡彩灯艺术体系。
+                        </p>
+                    </div>
+
+                    <div class="about-detail-section">
+                        <h4 data-i18n="about.detail.craft.title">制作工艺</h4>
+                        <p data-i18n="about.detail.craft.content">
+                            自贡彩灯的制作工艺博大精深，主要包含以下几个特色：一是造型多样，既有传统的
+                            龙、凤、麒麟等吉祥物造型，也有现代卡通、动漫形象，还有反映重大主题的
+                            大型灯组；二是色彩鲜艳，采用丝绸、绸缎、布料等材料制作灯面，通过特殊染整工艺，
+                            使彩灯在灯光照射下呈现出绚丽多彩的视觉效果；三是技术先进，融合了现代光电技术、
+                            机械传动、声光电一体化等科技手段，实现了彩灯的动态效果和互动体验；四是规模宏大，
+                            自贡灯会往往占地数百亩，展出灯组数百组，彩灯上万盏，营造出震撼的视觉盛宴。
+                        </p>
+                    </div>
+
+                    <div class="about-detail-section">
+                        <h4 data-i18n="about.detail.significance.title">文化意义</h4>
+                        <p data-i18n="about.detail.significance.content">
+                            自贡彩灯承载着丰富的文化内涵。它不仅是节庆文化的体现，更是中华民族审美情趣和
+                            工匠精神的集中展示。通过彩灯这一载体，传递了吉祥如意、团圆美满的美好祝愿，
+                            弘扬了中华优秀传统文化。自贡彩灯已走向世界，成为中国文化"走出去"的重要平台，
+                            为促进中外文化交流做出了重要贡献。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section id="stats" class="stats">
+        <div class="stats-bg-overlay"></div>
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label" data-i18n="stats.label">用数据说话</span>
+                <h2 class="section-title" data-i18n="stats.title">辉煌成就</h2>
+                <p class="section-subtitle" data-i18n="stats.subtitle">
+                    多年来，自贡彩灯创造了无数辉煌，见证了东方艺术的崛起
+                </p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon">🏮</div>
+                    <div class="stat-number" data-target="1000">0</div>
+                    <div class="stat-label" data-i18n="stats.item1">年制作大型灯组（组）</div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-icon">🌍</div>
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label" data-i18n="stats.item2">国际展出国家地区（个）</div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-icon">👥</div>
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-label" data-i18n="stats.item3">全球观众人次（百万）</div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-icon">👨‍🎨</div>
+                    <div class="stat-number" data-target="10000">0</div>
+                    <div class="stat-label" data-i18n="stats.item4">非遗传承匠人（人）</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="section-decoration section-decoration-gold" style="top: 20%; right: -50px;"></div>
+
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="gallery.label">匠心独运</span>
+                <h2 class="section-title" data-i18n="gallery.title">作品展示</h2>
+                <p class="section-subtitle" data-i18n="gallery.subtitle">
+                    每一盏彩灯都承载着匠人的心血，每一个作品都是艺术的结晶
+                </p>
+            </div>
+
+            <div class="gallery-category-tabs">
+                <button class="category-tab active" data-category="all" data-i18n="gallery.all">全部</button>
+                <button class="category-tab" data-category="动物系列" data-i18n="gallery.animal">动物系列</button>
+                <button class="category-tab" data-category="神话系列" data-i18n="gallery.myth">神话系列</button>
+                <button class="category-tab" data-category="花卉系列" data-i18n="gallery.flower">花卉系列</button>
+                <button class="category-tab" data-category="民俗系列" data-i18n="gallery.folk">民俗系列</button>
+                <button class="category-tab" data-category="科技系列" data-i18n="gallery.tech">科技系列</button>
+            </div>
+
+            <div class="gallery-grid" id="gallery-grid"></div>
+
+            <div class="gallery-load-more">
+                <button class="btn btn-outline" id="load-more-btn" data-i18n="gallery.loadMore">加载更多</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cases Section -->
+    <section id="cases" class="cases">
+        <div class="section-decoration section-decoration-red" style="bottom: 15%; left: -80px;"></div>
+
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="cases.label">实景记录</span>
+                <h2 class="section-title" data-i18n="cases.title">南宁之夜案例</h2>
+                <p class="section-subtitle" data-i18n="cases.subtitle">
+                    2023年南宁之夜现场实景展示，见证彩灯艺术的震撼魅力
+                </p>
+            </div>
+
+            <div class="cases-grid" id="cases-grid"></div>
+
+            <div class="cases-load-more">
+                <button class="btn btn-outline" id="load-more-cases-btn" data-i18n="cases.loadMore">加载更多</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="services.label">专业服务</span>
+                <h2 class="section-title" data-i18n="services.title">服务介绍</h2>
+                <p class="section-subtitle" data-i18n="services.subtitle">
+                    从设计到制作，从安装到运营，为您提供一站式彩灯服务
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-number">01</div>
+                    <div class="service-icon">🎨</div>
+                    <h3 data-i18n="services.card1.title">彩灯设计</h3>
+                    <p data-i18n="services.card1.desc">
+                        专业设计团队根据您的需求，提供创意设计方案。从主题策划到效果渲染，
+                        从色彩搭配到光影设计，全方位打造符合您期望的彩灯作品。
+                    </p>
+                    <ul class="service-features">
+                        <li data-i18n="services.card1.feature1">主题创意策划</li>
+                        <li data-i18n="services.card1.feature2">3D效果渲染</li>
+                        <li data-i18n="services.card1.feature3">施工图纸设计</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">02</div>
+                    <div class="service-icon">📋</div>
+                    <h3 data-i18n="services.card2.title">灯会策划</h3>
+                    <p data-i18n="services.card2.desc">
+                        提供完整的灯会活动策划服务，包括场地规划、灯组布局、游览路线设计、
+                        配套设施规划等，打造完整的灯会体验。
+                    </p>
+                    <ul class="service-features">
+                        <li data-i18n="services.card2.feature1">整体场地规划</li>
+                        <li data-i18n="services.card2.feature2">灯组布局设计</li>
+                        <li data-i18n="services.card2.feature3">游览路线优化</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">03</div>
+                    <div class="service-icon">🔧</div>
+                    <h3 data-i18n="services.card3.title">制作安装</h3>
+                    <p data-i18n="services.card3.desc">
+                        拥有经验丰富的制作团队和现代化生产车间，严格按照设计方案进行彩灯制作和
+                        现场安装，确保每一盏彩灯都达到最佳效果。
+                    </p>
+                    <ul class="service-features">
+                        <li data-i18n="services.card3.feature1">专业制作团队</li>
+                        <li data-i18n="services.card3.feature2">严格质量把控</li>
+                        <li data-i18n="services.card3.feature3">安全规范施工</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">04</div>
+                    <div class="service-icon">🎪</div>
+                    <h3 data-i18n="services.card4.title">展出运维</h3>
+                    <p data-i18n="services.card4.desc">
+                        提供灯会期间的运营维护服务，包括日常巡检、故障维修、设施保养、安全保障等，
+                        确保灯会顺利进行。
+                    </p>
+                    <ul class="service-features">
+                        <li data-i18n="services.card4.feature1">日常巡检维护</li>
+                        <li data-i18n="services.card4.feature2">应急维修响应</li>
+                        <li data-i18n="services.card4.feature3">全程安全保障</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-decoration section-decoration-gold" style="top: 30%; left: -60px;"></div>
+        <div class="section-decoration section-decoration-red" style="bottom: 20%; right: -60px;"></div>
+
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="contact.label">期待合作</span>
+                <h2 class="section-title" data-i18n="contact.title">联系我们</h2>
+                <p class="section-subtitle" data-i18n="contact.subtitle">
+                    专业彩灯设计制作一站式服务，期待与您携手共创辉煌
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-company">
+                        <h3 data-i18n="contact.company">绘声科技</h3>
+                        <p data-i18n="contact.desc">
+                            专业从事彩灯艺术设计、制作、展出一体化服务提供商。传承自贡彩灯文化，
+                            打造世界级灯光艺术盛宴。
+                        </p>
+                    </div>
+
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📍</div>
+                            <div class="contact-item-content">
+                                <h4 data-i18n="contact.address.title">地址</h4>
+                                <p data-i18n="contact.address.value">四川省自贡市自流井区彩灯公园</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📞</div>
+                            <div class="contact-item-content">
+                                <h4 data-i18n="contact.phone.title">电话</h4>
+                                <p>+86 138-XXXX-XXXX</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">✉️</div>
+                            <div class="contact-item-content">
+                                <h4 data-i18n="contact.email.title">邮箱</h4>
+                                <p>contact@zigonglanterns.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">🕐</div>
+                            <div class="contact-item-content">
+                                <h4 data-i18n="contact.hours.title">营业时间</h4>
+                                <p data-i18n="contact.hours.value">周一至周日 9:00 - 18:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label data-i18n="form.name">您的姓名</label>
+                            <input type="text" name="name" required data-i18n-placeholder="form.placeholder.name">
+                        </div>
+
+                        <div class="form-group">
+                            <label data-i18n="form.email">您的邮箱</label>
+                            <input type="email" name="email" required data-i18n-placeholder="form.placeholder.email">
+                        </div>
+
+                        <div class="form-group">
+                            <label data-i18n="form.phone">您的电话</label>
+                            <input type="tel" name="phone" required data-i18n-placeholder="form.placeholder.phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label data-i18n="form.message">请输入您的需求</label>
+                            <textarea name="message" rows="5" required data-i18n-placeholder="form.placeholder.message"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" data-i18n="form.submit">提交需求</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <h3 data-i18n="footer.logo">自贡彩灯</h3>
+                        <p data-i18n="footer.tagline">天下第一灯 · 千年非遗技艺</p>
+                    </div>
+                    <p class="footer-desc" data-i18n="footer.desc">
+                        传承千年彩灯文化，弘扬中华传统艺术。自贡彩灯，
+                        以匠心致初心，用艺术点亮世界。
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="WeChat">
+                            <span>💬</span>
+                            <span class="social-label" data-i18n="footer.wechat">微信</span>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Weibo">
+                            <span>📱</span>
+                            <span class="social-label" data-i18n="footer.weibo">微博</span>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Douyin">
+                            <span>🎵</span>
+                            <span class="social-label" data-i18n="footer.douyin">抖音</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4 data-i18n="footer.quickLinks">快速链接</h4>
+                    <ul>
+                        <li><a href="#home" data-i18n="nav.home">首页</a></li>
+                        <li><a href="#about" data-i18n="nav.about">彩灯文化</a></li>
+                        <li><a href="#gallery" data-i18n="nav.gallery">作品展示</a></li>
+                        <li><a href="#cases" data-i18n="nav.cases">南宁之夜</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 data-i18n="footer.services">服务项目</h4>
+                    <ul>
+                        <li><a href="#services" data-i18n="service.design">彩灯设计</a></li>
+                        <li><a href="#services" data-i18n="service.planning">灯会策划</a></li>
+                        <li><a href="#services" data-i18n="service.installation">制作安装</a></li>
+                        <li><a href="#services" data-i18n="service.operation">展出运维</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4 data-i18n="footer.contact">联系方式</h4>
+                    <p data-i18n="footer.address">📍 四川省自贡市自流井区彩灯公园</p>
+                    <p>📞 +86 138-XXXX-XXXX</p>
+                    <p>✉️ contact@zigonglanterns.com</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">
+                    &copy; 2026 自贡彩灯文化有限公司. 保留所有权利. 绘声科技荣誉出品
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div class="modal" id="image-modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modal-image" alt="">
+        <div class="modal-caption" id="modal-caption"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
